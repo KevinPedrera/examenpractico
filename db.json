@@ -1,0 +1,46 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Ana Torres",
+      "email": "ana@cinemet.com",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "nombre": "Luis Perez",
+      "email": "luis@cinemet.com",
+      "password": "123456"
+    }
+  ],
+  "peliculas": [
+    {
+      "id": "1",
+      "titulo": "Interestelar",
+      "genero": "Ciencia ficcion",
+      "duracion": 169,
+      "anio": 2014
+    },
+    {
+      "id": "2",
+      "titulo": "Coco",
+      "genero": "Animacion",
+      "duracion": 105,
+      "anio": 2017
+    },
+    {
+      "id": "3",
+      "titulo": "Titanic",
+      "genero": "Romance",
+      "duracion": 195,
+      "anio": 1997
+    },
+    {
+      "id": "4",
+      "titulo": "Gladiador",
+      "genero": "Accion",
+      "duracion": 155,
+      "anio": 2000
+    }
+  ]
+}
