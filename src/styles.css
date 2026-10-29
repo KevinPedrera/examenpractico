@@ -1,1 +1,19 @@
-*{box-sizing:border-box}body{margin:0;background:#10131d;color:#f4f4f8;font:16px Arial,sans-serif}header{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:18px 5%;background:#1c2030}nav{display:flex;align-items:center;gap:16px;flex-wrap:wrap}a{color:#c8d9ff;text-decoration:none}a:hover{text-decoration:underline}.logo{font-size:24px;font-weight:bold;color:#fff}main{max-width:1100px;margin:35px auto;padding:0 20px}button,.btn{background:#526dff;border:0;color:white;padding:11px 16px;border-radius:7px;cursor:pointer;display:inline-block}button:hover,.btn:hover{background:#3955e0}input,select{background:#22283a;border:1px solid #50566b;color:white;padding:11px;border-radius:6px}label{display:block;margin:12px 0 6px}.card{background:#202536;border:1px solid #333a51;padding:20px;border-radius:12px;margin:12px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}.error{color:#ff9a9a}.info{color:#a8c8ff}.modal-bg{position:fixed;inset:0;background:#000a;display:grid;place-items:center;padding:16px}.modal{background:#252b40;padding:25px;border-radius:12px;width:min(520px,100%);max-height:85vh;overflow:auto}.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:12px 0}.row button{margin-left:auto}h1{margin-top:0}input{max-width:100%}
+/* Estilos basicos con Bootstrap 5 */
+body { background: #f8f9fa; }
+header { background: #212529; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; }
+header a, header span { color: white; text-decoration: none; }
+header nav { display: flex; gap: 15px; align-items: center; flex-wrap: wrap; }
+.logo { font-size: 22px; font-weight: bold; }
+main { max-width: 1100px; margin: 30px auto; padding: 0 15px; }
+button, .btn { background: #0d6efd; color: white; border: 0; border-radius: 5px; padding: 8px 14px; cursor: pointer; }
+button:hover, .btn:hover { background: #0b5ed7; color: white; }
+input, select { padding: 8px; border: 1px solid #ced4da; border-radius: 5px; }
+label { display: block; margin: 10px 0 5px; }
+.card { padding: 18px; margin: 12px 0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 15px; }
+.error { color: #dc3545; }
+.info { color: #0d6efd; }
+.modal-bg { position: fixed; inset: 0; background: #0008; display: grid; place-items: center; padding: 15px; z-index: 1050; }
+.modal-bg .modal { display: block; position: static; width: min(520px,100%); height: auto; max-height: 85vh; overflow-y: auto; background: white; padding: 22px; border-radius: 8px; }
+.row { margin: 12px 0; align-items: center; gap: 10px; }
+.row button { margin-left: auto; }
